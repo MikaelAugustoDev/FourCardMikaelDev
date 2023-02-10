@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    
+    .imagens {
+        height: 1000px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagem {
+        position: relative;
+    }
+
+    .imagem.um {
+        margin-top: 0;
+    }
+
+    .imagem.dois {
+        margin-left: 0;
+    }
+
+    .imagem.tres {
+        margin-left: 0;
+    }
+
+    .imagem.quatro {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .subtitulo {
+        font-size: 24px;
+    }
+
+    .informacao {
+        font-size: 10px;
+        width: 70%;
+    }
+}
